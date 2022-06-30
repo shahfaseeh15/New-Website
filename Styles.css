@@ -1,0 +1,35 @@
+/******************Tag Selector****************************/
+body{
+  font-family: Lucida Handwriting;
+  background-color: #94B49F;
+}
+hr{
+  border-style: none;
+  width: 30%;
+  border-top-style: dotted;
+  border-color: white;
+  border-width: 5px;
+}
+h1{
+  color: #3F4E4F;
+}
+h3{
+   color: #3F4E4F;
+}
+img{
+  background-color: black;
+}
+
+/*******************Class Selector***************************/
+
+.one{
+  font-style: italic;
+}                                     /*If we to give two different properties to two different tags like p or h3 then we use classes*/
+.two{                                 /*Two classes can have same name*/
+  font-family: Lucida Handwriting;
+}
+/******************ID Selector********************************/
+
+#contact1{
+  font-family: Papyrus;                /*Class and IDs are quite same but they will override the commands in the tag selector*/
+}                                      /*IDs cannot have same Name*/
